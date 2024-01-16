@@ -11,7 +11,7 @@ const cookiesParser = require("cookie-parser");
 const imageDownloader = require("image-downloader");
 const multer = require("multer");
 const fs = require("fs");
-const Place = require("./models/Place");
+const Place = require("./models/Place");  
 
 const app = express()
 const port = 3000
