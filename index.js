@@ -23,7 +23,7 @@ app.use(cookiesParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://air-bnb-clone-ivory.vercel.app", // Remove the trailing slash
+    origin: "https://airbnb-clone-made.netlify.app", // Remove the trailing slash
   }),
 );
 app.listen(3000)
