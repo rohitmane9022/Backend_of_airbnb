@@ -23,7 +23,7 @@ app.use(cookiesParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173", // Remove the trailing slash
+    origin: "https://air-bnb-clone-ivory.vercel.app", // Remove the trailing slash
   }),
 );
 app.listen(3000)
